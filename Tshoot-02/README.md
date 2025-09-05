@@ -10,7 +10,7 @@ Lock Info:
   ID:        a885db42-468e-73be-71a8-c17ad290779f
   Path:      terraform/08-aks/aks.tfstate
   Operation: OperationTypeApply
-  Who:       root@glz-sha-dev-linux-placeholder-84c7db67d4-hlkcj
+  Who:       root@am-dev-linux-placeholder-84c7db67d4-hlkcj
   Version:   1.9.6
   Created:   2025-09-01 14:33:40.335739467 +0000 UTC
   Info:      
