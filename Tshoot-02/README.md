@@ -32,7 +32,7 @@ flag, but this is not recommended.
 
 | II. __WHY THE ERROR WAS ENCOUNTERED:-__ |
 | :--------- |
-| The Terraform State file got locked beacaue the Terraform execution got cancelled because of below possible reasons:- |
+| The Terraform State file got locked because the Terraform execution got cancelled because of below possible reasons:- |
 | - Pipeline executing Terraform got timeout. |
 | - User is running Terraform "Init", "Plan" and "Apply" manually over commandline. While "Apply" is "In-Progress", User terminates by pressing "Ctrl + C" |
 
