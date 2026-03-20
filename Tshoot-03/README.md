@@ -23,11 +23,11 @@ In this Terraform Troubleshooting Session, I will demonstrate, how I resolved th
 
 | II. __WHY THE ERROR WAS ENCOUNTERED:-__ |
 | :--------- |
-| This Error was encountered because Pipeline executing Terraform got timeout. |
+| - This Error was encountered because Pipeline executing Terraform got timeout. |
 
 | III. __RESOLUTION:-__ |
 | :--------- |
-| Delete the respective resource, here for example is "AKS" using Powershell, Az CLI, or over Azure Portal. Then, Re-Run the pipeline executing Terraform or Run Terraform commands manually over Terminal. | 
+| - Delete the respective resource, here for example is "AKS" using Powershell, Az CLI, or over Azure Portal. Then, Re-Run the pipeline executing Terraform or Run Terraform commands manually over Terminal. | 
 
 __Hope You Enjoyed the Troubleshooting Session!!!__
 
