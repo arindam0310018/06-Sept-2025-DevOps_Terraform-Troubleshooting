@@ -1,6 +1,11 @@
 # Terraform Troubleshooting 03:-
 
-I. __Below follows the Terraform Error:-__
+Greetings my fellow Technology Advocates and Specialists.
+
+In this Terraform Troubleshooting Session, I will demonstrate, how I resolved the below encountered error - "A resource with the ID already exists - to be managed via Terraform this resource needs to be imported into the State."
+
+| I. __TERRAFORM ERROR 03:-__ |
+| :--------- |
 
 ```
 ╷
@@ -16,5 +21,14 @@ I. __Below follows the Terraform Error:-__
 
 ```
 
-| RESOLUTION:- |
-| --------- |
+| II. __WHY THE ERROR WAS ENCOUNTERED:-__ |
+| :--------- |
+| This Error was encountered because Pipeline executing Terraform got timeout. |
+
+| III. __RESOLUTION:-__ |
+| :--------- |
+| Delete the respective resource, here for example is "AKS" using Powershell, Az CLI, or over Azure Portal. Then, Re-Run the pipeline executing Terraform or Run Terraform commands manually over Terminal. | 
+
+__Hope You Enjoyed the Troubleshooting Session!!!__
+
+__Stay Safe | Keep Learning | Spread Knowledge__
