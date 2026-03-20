@@ -33,8 +33,8 @@ flag, but this is not recommended.
 | --------- |
 | Unlock the Terraform State file located in the respective Storage Account. User needs to break the Terraform State File "Lease". | 
 | The Terraform State file got locked beacaue the Terraform execution got cancelled because of below possible reasons:- |
-| 1.> Pipeline executing Terraform got timeout. |
-| 2.> User is running Terraform "Init", "Plan" and "Apply" manually over commandline. While "Apply" is "In-Progress", User terminates by pressing "Ctrl + C" |
+| 1. Pipeline executing Terraform got timeout. |
+| 2. User is running Terraform "Init", "Plan" and "Apply" manually over commandline. While "Apply" is "In-Progress", User terminates by pressing "Ctrl + C" |
 
 __Hope You Enjoyed the Troubleshooting Session!!!__
 
