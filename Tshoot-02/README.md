@@ -4,7 +4,8 @@ Greetings my fellow Technology Advocates and Specialists.
 
 In this Terraform Troubleshooting Session, I will demonstrate, how I resolved the below encountered error - "Error acquiring the state lock. state blob is already locked"
 
-I. __Below follows the Terraform Error:-__
+| I. __TERRAFORM ERROR 02:-__ |
+| :--------- |
 
 ```
 Error: Error acquiring the state lock
@@ -29,12 +30,15 @@ flag, but this is not recommended.
 
 ```
 
-| RESOLUTION:- |
+| II. __WHY THE ERROR WAS ENCOUNTERED:-__ |
 | :--------- |
-| Unlock the Terraform State file located in the respective Storage Account. User needs to break the Terraform State File "Lease". | 
 | The Terraform State file got locked beacaue the Terraform execution got cancelled because of below possible reasons:- |
-| 1. Pipeline executing Terraform got timeout. |
-| 2. User is running Terraform "Init", "Plan" and "Apply" manually over commandline. While "Apply" is "In-Progress", User terminates by pressing "Ctrl + C" |
+| - Pipeline executing Terraform got timeout. |
+| - User is running Terraform "Init", "Plan" and "Apply" manually over commandline. While "Apply" is "In-Progress", User terminates by pressing "Ctrl + C" |
+
+| III. __RESOLUTION:-__ |
+| :--------- |
+| - Unlock the Terraform State file located in the respective Storage Account. User needs to break the Terraform State File "Lease". | 
 
 __Hope You Enjoyed the Troubleshooting Session!!!__
 
