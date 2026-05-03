@@ -24,3 +24,4 @@ Error: creating Kubernetes Cluster (Subscription: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 | RESOLUTION:- |
 | --------- |
+| __to be documented...__ |
